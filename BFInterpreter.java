@@ -126,6 +126,6 @@ public class BFInterpreter {
 
     private void writeChar(){ //.
         char c = (char)bytesArray[index];
-        System.out.println(c);
+        System.out.print(c);
     }
 }
